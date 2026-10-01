@@ -29,6 +29,11 @@
         User = "jblik";
         IdentityFile = "/Users/jblik/.ssh/nixos_server";
       };
+      "unraid" = {
+        HostName = "192.168.1.2";
+        User = "root";
+        IdentityFile = "/Users/jblik/.ssh/forgejo_unraid_deploy";
+      };
     };
   };
   work = {
