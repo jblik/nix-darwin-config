@@ -25,7 +25,7 @@
         IdentityFile = "/Users/jblik/.ssh/git.steenblik.ch";
       };
       "nixos-server" = {
-        HostName = "192.168.1.100";
+        HostName = "100.68.179.40";
         User = "jblik";
         IdentityFile = "/Users/jblik/.ssh/nixos_server";
       };
