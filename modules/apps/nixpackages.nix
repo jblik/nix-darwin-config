@@ -60,6 +60,7 @@ in
       postgresql # just use postgres
       playball # baseball scoreboard tui
       ripgrep # faster grep
+      sops # nix sealed secrets
       spotify # music
       tailwindcss # css framework
       tmux # terminal multiplexer

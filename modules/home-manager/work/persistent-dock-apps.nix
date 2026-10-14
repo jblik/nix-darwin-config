@@ -1,6 +1,6 @@
 pkgs: [
   "/Applications/Ghostty.app"
-  "/Applications/Jetbrains/IntelliJ IDEA.app"
+  "/Applications/Jetbrains/IntelliJ IDEA Ultimate.app"
   "/Applications/Jetbrains/Rider.app"
   "/Applications/Jetbrains/DataGrip.app"
   "/Applications/Sublime Text.app"
