@@ -34,6 +34,7 @@
         "wifiman"
       ];
       masApps = {
+        "1Password for Safari" = 1569813296;
         "Actions" = 1586435171;
         "Tailscale" = 1475387142;
         "uBlock Origin Lite" = 6745342698;
