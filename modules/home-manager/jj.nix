@@ -33,6 +33,7 @@ in
           "fetch"
         ];
       };
+      ui.default-command = "log";
     }
     // profileSettings
     // {

@@ -13,12 +13,14 @@ let
   starwars-jetbrains-mono = pkgs.callPackage ../fonts/starwars-jetbrains-mono.nix { };
 
   # todo when fixed upstream remove
-  toolbox = pkgs-unstable.jetbrains-toolbox.overrideAttrs (finalAttrs: _: {
-    src = pkgs-unstable.fetchurl {
-      url = "https://download.jetbrains.com/toolbox/jetbrains-toolbox-${finalAttrs.version}-arm64.dmg";
-      hash = "sha256-Lwe3gWiRNHbNrk6hwfp0uwdaS8twxZioXeCZeFpunHM=";
-    };
-  });
+  toolbox = pkgs-unstable.jetbrains-toolbox.overrideAttrs (
+    finalAttrs: _: {
+      src = pkgs-unstable.fetchurl {
+        url = "https://download.jetbrains.com/toolbox/jetbrains-toolbox-${finalAttrs.version}-arm64.dmg";
+        hash = "sha256-Lwe3gWiRNHbNrk6hwfp0uwdaS8twxZioXeCZeFpunHM=";
+      };
+    }
+  );
 in
 {
   nixpkgs.config.allowUnfree = true;
